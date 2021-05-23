@@ -1,0 +1,78 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xa91bE88E84F1B0F30b81EF4f3f968eae2613d3B3",
+    "txHash": "0x1d1f00d6e924d0e4473aa666c295c2a0a73c8dfcf1067ba5dc68565a54f35646"
+  },
+  "proxies": [
+    {
+      "address": "0x12c8cc38A80c5085824480E7FDD347C299a4c26E",
+      "txHash": "0x476edb77757613161aa0d64d40d0c33d1e956c07c874de012531657242696090",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x247012d8d6916392067f8C8028C961e410c4B1A2",
+      "txHash": "0xc1a1ee514880eae595490dd28eb4535a048d7d36886259bc2a73b0ad15f16fec",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "925ac28bbf9839bef9f86ec5b41ec3785d913ce448340c01b8751ecba4a82e6f": {
+      "address": "0x70a9263710A8cf5f6D55cdc2dbF52Ed52c00B1c0",
+      "txHash": "0x913dc448fb07160a349b5574163ed3ac6736219d042f805030e302f0810d05d3",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Box",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "..\\..\\..\\..\\..\\..\\C\\Users\\Arima\\Desktop\\project\\proxy\\contracts\\Box.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    },
+    "bc571d65607baf7ce16fa1275651f1ffd6a632e68e1f5a7d1b2532e6855eebc8": {
+      "address": "0x190747134f794C6b1749Dd006b8C53d701A70621",
+      "txHash": "0x6025e37cb061a92859f38bea187e366cd723153a2a267bc88cdaa2ff152b396a",
+      "layout": {
+        "storage": [
+          {
+            "contract": "BoxV2",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "..\\..\\..\\..\\..\\..\\C\\Users\\Arima\\Desktop\\project\\proxy\\contracts\\Box.sol:8"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    },
+    "01c3ba37320016517cdb11c3854419e58447d3987ca7ee58cc7d8498e0984ab2": {
+      "address": "0x97a9C9633560Eb699eFAfaB3695f747a63Ce02dc",
+      "txHash": "0x1957c0f2eef30e667afcef5d20d3a878d1f228b0afe165f83dedde4358cc95a3",
+      "layout": {
+        "storage": [
+          {
+            "contract": "BoxV2",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "..\\..\\..\\..\\..\\..\\C\\Users\\Arima\\Desktop\\project\\proxy\\contracts\\Box.sol:8"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    }
+  }
+}

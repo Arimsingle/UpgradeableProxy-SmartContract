@@ -1,4 +1,4 @@
-let abi = [
+let abiBoxV2 = [
     {
         "anonymous": false,
         "inputs": [
@@ -11,6 +11,13 @@ let abi = [
         ],
         "name": "ValueChanged",
         "type": "event"
+    },
+    {
+        "inputs": [],
+        "name": "increment",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
     },
     {
         "inputs": [],
@@ -38,5 +45,5 @@ let abi = [
         "stateMutability": "nonpayable",
         "type": "function"
     }
-]
-module.exports = abi;
+];
+module.exports = abiBoxV2;

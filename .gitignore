@@ -1,5 +1,5 @@
 node_modules
 .env
-src/deploy.js
-src/ethers.js
-src/bytecode.js
+/src/deploy.js
+/src/ethers.js
+/src/bytecode.js

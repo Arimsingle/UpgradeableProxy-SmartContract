@@ -1,5 +1,5 @@
 var ethers = require('ethers');
-var abi = require('../../abiBox');
+var abi = require('../../abi/abiBox');
 let { contractAddress, url } = require('../../shared/variables');
 let provider = new ethers.providers.JsonRpcProvider(url);
 let contract = new ethers.Contract(contractAddress, abi, provider);

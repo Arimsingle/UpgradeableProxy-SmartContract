@@ -1,7 +1,7 @@
 require('dotenv').config({ path: '../.env' });
 
 var ethers = require('ethers');
-var abi = require('./abi');
+var abi = require('./abi/abiBox');
 let url = "http://127.0.0.1:9545/";
 let provider = new ethers.providers.JsonRpcProvider(url);
 let contractAddress = "0xe49106E4E96f448D548e160bf43e7718Ec290FDD";

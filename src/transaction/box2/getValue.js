@@ -1,6 +1,6 @@
 require('dotenv').config({ path: '../../.env' });
 let ethers = require('ethers');
-let abiBox2 = require('../../abiBoxV2');
+let abiBox2 = require('../../abi/abiBoxV2');
 let url = process.env.URL;
 let provider = new ethers.providers.JsonRpcProvider(url);
 let contractAddress = process.env.CONTRACT_ADDRESS;
